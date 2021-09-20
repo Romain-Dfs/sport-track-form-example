@@ -1,0 +1,72 @@
+.form {
+
+	& > * {
+		width: 100%;
+
+		&:not(:last-child) {
+			margin-bottom: 1.5rem;
+		}
+	}
+	
+	&__title {
+		font-weight: 700;
+		font-size: 3rem;
+	}
+
+	&__input-section {
+
+	}
+
+	&__input-line {
+
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 1.25rem;
+
+		&:last-child{
+			margin-bottom: 0px;
+		}
+
+		& > input {
+			width: 100%;
+		}
+
+		&--2 {
+
+			justify-content: space-between;
+
+			& > *:first-child {
+				margin-right: .75rem;
+			}
+
+			& > *:last-child {
+				margin-left: .75rem;
+			}
+
+		}
+
+	}
+
+	&__input {
+		padding: .75rem 1rem;
+		border-radius: 5px;
+		border: 1px solid rgb(44, 41, 41);
+	}
+
+	&__advertising {
+
+	}
+
+	&__btn {
+
+		padding: 1rem 3rem;
+		transition: 200ms all cubic-bezier(.43,-1.04,1,1.63);
+
+		&:hover {
+			background-color: black;
+		}
+	}
+
+
+
+}

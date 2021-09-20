@@ -1,0 +1,15 @@
+.description {
+
+	color: white;
+
+	&__title {
+		font-size: 3.5rem;
+		font-weight: 700;
+		line-height: 1.2;
+	}
+
+	&__content {
+		font-size: 1.5rem;
+		line-height: 1.2;
+	}
+}
