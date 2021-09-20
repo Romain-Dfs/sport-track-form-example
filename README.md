@@ -20,4 +20,7 @@ Lancez simplement `npm start` et votre projet se lance sur `localhost:3000`
 
 Pour l'architecture du projet, récupérez celle du dossier existante :grin: pareil pour les scripts qui sont dans le fichier package.json :wink:
 
+## Les points à creuser
 
+- L'atomic design
+- L'architecture BEM avec Sass
